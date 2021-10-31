@@ -169,6 +169,8 @@ function onMouseUp(){
             let now =new Date().getTime();
             END_TIME=now;
             WIN_SOUND.play();
+            setInterval(function(){window.location.reload();},3000);
+    
 
         }
     }
