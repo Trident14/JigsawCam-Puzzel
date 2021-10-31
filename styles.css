@@ -1,0 +1,60 @@
+
+body{
+    background-image: url("bg.jpg") ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+  
+    margin: 0;
+    background-image: url("bg.jpg");
+    overflow: hidden;
+    overscroll-behavior: none; 
+    font-family: sans-serif;
+}
+
+#menuItem{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-image:url("frosted.jpg");
+    background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+    text-align:center;
+    padding:5vmin;
+    border: 1vmin rgba(10, 10, 10, 0.6) solid;
+
+}
+button{
+    font-size:7vmin;
+    background:rgb(197, 139, 31);
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+    border:none;
+    border-radius:5px;
+
+}
+button:hover{
+    background:rgba(26, 197, 26, 0.637);
+    color:black;
+}
+select{
+    font-size:3vmin;
+    cursor:pointer;
+    border:none;
+    border-radius: 1vmin;
+    outline:none;
+}
+#time{
+    position: absolute;
+    color: white;
+    top:0;
+    left:50%;
+    transform:translte(-50);
+}

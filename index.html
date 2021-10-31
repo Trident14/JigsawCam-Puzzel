@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Camsaw Puzzel</title>
+    <script src="script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="main ()">
+    <canvas id="myCanvas"></canvas>
+        <div id="menuItem">
+            <div id="menu">
+                <div id="controls">
+                    <img src='logo.jpg' style='width:50%;'/>
+                    <br>
+                    <br>
+                    Difficulty <select id="difficulty" onchange=
+                    "setDifficulty()">
+                    <option value="easy">EASY</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">HARD</option>
+                    <option value="insane">Insane</option>
+                </select>
+                <br>
+                <br>
+                <button onclick="restart()">Start</button>
+                </div>
+            </div>
+        </div>
+        <div id="time"></div>
+</body>
+</html>
